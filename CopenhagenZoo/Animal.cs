@@ -30,6 +30,7 @@ namespace CopenhagenZoo
             animals.Add(this);
         }
 
+        // A method that returns what anumal is eating
         public void Eat()
         {
             Console.WriteLine(Gender + Race + " Spiser");
